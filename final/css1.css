@@ -1,0 +1,72 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  color: #FDFEFE;
+  padding-top: 10px;
+  text-align: center;
+  font: 20px Arial;
+  margin: 10px;
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+ul {
+  padding: 10px;
+  margin: 10px;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: #FDFEFE;
+  text-align: center;
+  padding: 5px 90px;
+  text-decoration: none;
+  background: #424949;
+}
+
+h1, p {
+    margin: 10px;
+}
+
+/* Fixed width container */
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  font: bold 25px Arial;
+  text-align: center;
+  color:#FFFFFF;
+  width: 900px;
+  background: #424949;
+}
+
+p {
+  color: #A93226;
+  text-align: left;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content section {
+    padding: 1em;
+    flex: 1 1 25%;
+    width: 25%;
+}
+
+@media screen and (max-width: 700px) {
+  li a {
+  padding: 5px 20px;
+}
+}

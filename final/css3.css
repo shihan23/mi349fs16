@@ -1,0 +1,93 @@
+/* Add your CSS below */
+
+/* Example: adding a background color to the HTML body */
+body {
+  color: #FDFEFE;
+  padding-top: 10px;
+  text-align: center;
+  font: 20px Arial;
+  margin: 10px;
+  margin-left: 130px;
+  margin-right: 130px;
+}
+
+ul {
+  margin: 10px;
+  overflow: hidden;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #FDFEFE;
+  text-align: center;
+  padding: 5px 90px;
+  text-decoration: none;
+}
+
+section {
+  color: #FFFFFF;
+}
+
+h1 {
+    margin: 10px;
+}
+
+/* Fixed width container */
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+header {
+  font: bold 25px Arial;
+  text-align: center;
+  color:#FFFFFF;
+  background: #424949;
+}
+
+nav {
+  font:20px;
+  background: #424949;
+}
+
+.tips {
+  display: inline-block;
+  width: 50%;
+  margin: 20px;
+}
+
+.thumbs {
+  display: inline-block;
+  width: 40%;
+  margin: 20px;
+}
+
+h3{
+  margin:  20px 10px;
+  text-align:left;
+  color: #424949;
+  font: bold 20px Arial;
+}
+
+p {
+  margin: 10px;
+  color: #424949;
+  text-align:left;
+  font: 15px Arial;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content section {
+    padding: 1em;
+    flex: 1 1 25%;
+    width: 25%;
+}
